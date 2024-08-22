@@ -13,13 +13,6 @@ st.sidebar.page_link('pages/page_2.py', label='糖類')
 
 st.image('https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=s774-k-no')
 
-df = pd.DataFrame({
-  'first column': [1, 2, 3, 4, 5, 6, 7],
-  'second column': [10, 20, 30, 40, 50, 60, 70]
-})
-
-df
-
 st.text_input("Your name", key="name")
 
 # You can access the value at any point with:
