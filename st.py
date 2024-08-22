@@ -63,14 +63,3 @@ with right_column:
         'Sorting hat',
         ("Gryffindor", "Ravenclaw", "Hufflepuff", "Slytherin"))
     st.write(f"You are in {chosen} house!")
-
-import time
-
-'Starting a long computation...'
-
-# Add a placeholder
-latest_iteration = st.empty()
-bar = st.progress(0)
-
-
-
