@@ -11,7 +11,7 @@ st.header('公司介紹')
 st.sidebar.page_link('st.py', label='公司介紹')
 st.sidebar.page_link('pages/page_2.py', label='糖類')
 
-# st.image('https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=s774-k-no')
+st.image('https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=s774-k-no')
 
 df = pd.DataFrame({
   'first column': [1, 2, 3, 4, 5, 6, 7],
