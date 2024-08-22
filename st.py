@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 # 頁籤名稱
-st.header('啓元食品行')
+st.header('公司介紹')
 
 # Sidebar navigation
 st.sidebar.page_link('st.py', label='公司介紹')
