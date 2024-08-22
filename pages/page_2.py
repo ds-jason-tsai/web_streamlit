@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title='糖類產品')
+
 # 頁籤名稱
 st.header('糖類')
 

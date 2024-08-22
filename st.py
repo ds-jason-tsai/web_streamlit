@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+st.set_page_config(page_title='啟元食品行')
+
 # 頁籤名稱
 st.header('公司介紹')
 
