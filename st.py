@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 # 網頁名稱
-st.set_page_config(page_title="test")
+# st.set_page_config(page_title="test")
 
 # 頁籤名稱
 st.header('Home')
@@ -75,9 +75,5 @@ import time
 latest_iteration = st.empty()
 bar = st.progress(0)
 
-for i in range(5):
-  # Update the progress bar with each iteration.
-  latest_iteration.text(f'Iteration {i+1}')
-  bar.progress(i + 1)
-  time.sleep(1)
+
 
