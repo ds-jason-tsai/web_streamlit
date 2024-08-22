@@ -2,15 +2,12 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-# 網頁名稱
-# st.set_page_config(page_title="test")
-
 # 頁籤名稱
-st.header('Home')
+st.header('啓元食品行')
 
 # Sidebar navigation
-st.sidebar.page_link('st.py', label='Home')
-st.sidebar.page_link('pages/page_2.py', label='P2')
+st.sidebar.page_link('st.py', label='公司介紹')
+st.sidebar.page_link('pages/page_2.py', label='糖類')
 
 # st.image('https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=s774-k-no')
 
