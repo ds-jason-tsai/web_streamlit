@@ -1,8 +1,5 @@
 import streamlit as st
 
-# 網頁名稱
-st.set_page_config(page_title="網頁名稱2")
-
 # 頁籤名稱
 st.header('P2')
 
