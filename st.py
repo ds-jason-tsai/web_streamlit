@@ -2,11 +2,8 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-# 寬版
-st.set_page_config(layout="wide")
-
 # 瀏覽器頁籤
-st.set_page_config(page_title='啟元食品行')
+st.set_page_config(page_title='啟元食品行', layout="wide")
 
 # 網頁標題
 st.header('首頁')
