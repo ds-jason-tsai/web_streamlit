@@ -28,7 +28,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.write(f"")
     st.markdown("<h1 style='color: orange;'>100+</h1>", unsafe_allow_html=True)
-    st.markdown("<h3 style='color: gray;  '>飯店餐廳合作</h3>", unsafe_allow_html=True)
+    st.markdown("<h5>飯店餐廳合作</h5>", unsafe_allow_html=True)
 with col2:
     st.write(f"")
     st.header("4.6★")
