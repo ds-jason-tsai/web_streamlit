@@ -32,13 +32,6 @@ with col2:
 with col3:
     st.image("https://lh5.googleusercontent.com/p/AF1QipP7dRq4g-IePOLlcgec--g5QRpL87RewIdH2vxr=s676-k-no")
 
-
-st.write(f"")
-st.write(f"")
-st.write(f"")
-st.write(f"")
-st.write(f"")
-st.write(f"")
 st.write(f"")
 st.write(f"")
 
