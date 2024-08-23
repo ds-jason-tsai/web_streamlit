@@ -22,8 +22,8 @@ st.markdown(
     .custom-link {
         display: block;
         padding: 10px;
-        background-color: #FFA421; /* 黃色 */
-        color: #F2F4F8; /* 白色文字 */
+        background-color: #cce7ff; /* 科技感淺藍色 */
+        color: #fff; /* 白色文字 */
         text-align: center;
         text-decoration: none; /* 移除底線 */
         border-radius: 5px;
@@ -33,7 +33,7 @@ st.markdown(
     }
     .custom-link:hover {
         background-color: #99d0ff; /* 淺藍色 hover 效果 */
-        color: #333; /* 保持淺黑色文字顏色 */
+        color: #fff; /* 保持白色文字顏色 */
     }
     </style>
     """,
