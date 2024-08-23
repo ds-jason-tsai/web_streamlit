@@ -15,27 +15,67 @@ st.sidebar.page_link('pages/page_2.py', label='糖類')
 # image
 # st.image('https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=s774-k-no')
 
-# 加入自訂 CSS
+# 加入自訂 CSS 和 JavaScript
 st.markdown(
     """
     <style>
-    .custom-link {
-        display: block;
-        padding: 10px;
-        background-color: #cce7ff; /* 科技感淺藍色 */
-        color: #000; /* 文字顏色 */
-        text-align: center;
-        text-decoration: none; /* 移除底線 */
-        border-radius: 5px;
-        margin: 5px 0;
-        font-weight: bold; /* 字體加粗 */
-        transition: background-color 0.3s ease; /* 平滑過渡 */
+    .carousel-container {
+        display: flex;
+        align-items: center;
     }
-    .custom-link:hover {
-        background-color: #99d0ff; /* 淺藍色 hover 效果 */
-        color: #000; /* 保持文字顏色 */
+    .carousel-wrapper {
+        display: flex;
+        overflow: hidden;
+        width: 220px; /* 只顯示兩個按鈕的寬度 */
+    }
+    .carousel-buttons {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+    .carousel-button {
+        flex: 0 0 100px; /* 每個按鈕的寬度 */
+        margin: 5px;
+        background-color: #cce7ff;
+        color: #000;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .nav-button {
+        cursor: pointer;
+        padding: 10px;
+        background-color: #cce7ff;
+        border-radius: 50%;
+        margin: 0 10px;
     }
     </style>
+
+    <div class="carousel-container">
+        <div class="nav-button" onclick="moveCarousel(-1)">◀</div>
+        <div class="carousel-wrapper">
+            <div class="carousel-buttons" id="carousel">
+                <div class="carousel-button">按鈕 1</div>
+                <div class="carousel-button">按鈕 2</div>
+                <div class="carousel-button">按鈕 3</div>
+                <div class="carousel-button">按鈕 4</div>
+            </div>
+        </div>
+        <div class="nav-button" onclick="moveCarousel(1)">▶</div>
+    </div>
+
+    <script>
+    let currentIndex = 0;
+    function moveCarousel(direction) {
+        const carousel = document.getElementById("carousel");
+        const buttons = document.querySelectorAll(".carousel-button");
+        const totalButtons = buttons.length;
+        currentIndex = (currentIndex + direction + totalButtons) % totalButtons;
+        const offset = -currentIndex * 110; // 每個按鈕的寬度加上間距
+        carousel.style.transform = `translateX(${offset}px)`;
+    }
+    </script>
     """,
     unsafe_allow_html=True
 )
