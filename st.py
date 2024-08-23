@@ -6,7 +6,14 @@ import streamlit as st
 st.set_page_config(page_title='啟元食品行', layout="wide")
 
 # 網頁標題
-st.header('首頁')
+st.header('公司介紹')
+
+# 製造間距
+st.write(f"")
+st.write(f"")
+
+# 網頁標題
+st.header('產品分類')
 
 # sidebar navigation
 st.sidebar.page_link('st.py', label='公司介紹')
@@ -34,7 +41,9 @@ st.sidebar.page_link('pages/page_17.py', label='香辛料')
 # Include Font Awesome CDN(for icon)
 st.markdown(
     """
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel  = "stylesheet" 
+          href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    >
     """,
     unsafe_allow_html=True
 )
@@ -46,21 +55,29 @@ st.markdown(
     .custom-link {
         display: block;
         padding: 10px;
-        background-color: #cce7ff; /* 淺藍色 */
-        color: #fff; /* 白色文字 */
+        /* 淺藍色 */
+        background-color: #cce7ff;
+        /* 白色字 */
+        color: #fff; 
         text-align: center;
-        text-decoration: none; /* 移除底線 */
+        /* 無底線 */
+        text-decoration: none;
         border-radius: 5px;
         margin: 5px 0;
-        font-weight: normal; /* 去掉加粗 */
-        transition: background-color 0.3s ease; /* 平滑過渡 */
+        /* 無加粗 */
+        font-weight: normal;
+        /* 平滑過渡 */
+        transition: background-color 0.3s ease;
     }
     .custom-link:hover {
-        background-color: #99d0ff; /* 淺藍色 hover 效果 */
-        color: #fff; /* 保持白色文字顏色 */
+        /* 淺藍色 hover 效果 */
+        background-color: #99d0ff;
+        /* 保持白色文字顏色 */
+        color: #fff;
     }
     .custom-link i {
-        margin-right: 8px; /* Add space between icon and text */
+        /* Add space between icon and text */
+        margin-right: 8px;
     }
     </style>
     """,
