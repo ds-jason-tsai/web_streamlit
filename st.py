@@ -22,7 +22,7 @@ st.markdown(
     .custom-link {
         display: block;
         padding: 10px;
-        background-color: #d3f9d8; /* 淺綠色 */
+        background-color: #A6CAEC; /* 淺綠色 */
         color: #000;
         text-align: center;
         text-decoration: none;
