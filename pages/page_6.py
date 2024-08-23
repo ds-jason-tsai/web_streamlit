@@ -42,10 +42,10 @@ st.write(f"")
 st.write('產品細項')
 
 # current directory of the script
-current_dir = os.path.dirname(__file__)
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # join relative path of the file
-file_path = os.path.join(current_dir, 'web_streamlit\static\p6.xlsx')
+file_path = os.path.join(current_dir, 'web_streamlit/static/p6.xlsx')
 
 df = pd.read_excel(file_path)
 st.dataframe(df, use_container_width=True)
