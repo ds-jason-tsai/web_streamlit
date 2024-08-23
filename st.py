@@ -44,61 +44,59 @@ st.markdown(
 c1, c2, c3, c4, c5, c6, c7, c8, c9 = st.columns(9)
 
 with c1:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">糖類</a>', 
     unsafe_allow_html=True)
 with c2:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">麵粉類</a>', 
     unsafe_allow_html=True)
 with c3:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">粉類</a>', 
     unsafe_allow_html=True)
 with c4:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">油類</a>', 
     unsafe_allow_html=True)
 with c5:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">調味料</a>', 
     unsafe_allow_html=True)
 with c6:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">醬油類</a>', 
     unsafe_allow_html=True)
 with c7:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">罐頭類</a>', 
     unsafe_allow_html=True)
 with c8:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">農產品</a>', 
     unsafe_allow_html=True)
 with c9:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">海產類</a>', 
     unsafe_allow_html=True)
 
 c10, c11, c12, c13, c14, c15, c16, c17, c18 = st.columns(9)
 
 with c10:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">豆類</a>', 
     unsafe_allow_html=True)
 with c11:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">中藥</a>', 
     unsafe_allow_html=True)
 with c12:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">雜貨類</a>', 
     unsafe_allow_html=True)
 with c13:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">冰用品</a>', 
     unsafe_allow_html=True)
 with c14:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">茶咖啡</a>', 
     unsafe_allow_html=True)
 with c15:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">王子麵</a>', 
     unsafe_allow_html=True)
 with c16:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">泡麵類</a>', 
     unsafe_allow_html=True)
 with c17:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">香辛料</a>', 
     unsafe_allow_html=True)
-
-
 
 # 製造間距
 st.write(f"")
