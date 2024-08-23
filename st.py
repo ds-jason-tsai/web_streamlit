@@ -6,7 +6,7 @@ import streamlit as st
 st.set_page_config(page_title='啟元食品行', layout="wide")
 
 # 網頁標題
-st.header('公司介紹')
+st.subheader('啟元食品行', divider='blue')
 
 # 製造間距
 st.write(f"")
@@ -17,7 +17,7 @@ st.write(f"")
 st.write(f"")
 
 # 網頁標題
-st.subheader('產品分類')
+st.subheader('產品分類', divider='blue')
 # sidebar navigation
 st.sidebar.page_link('st.py', label='公司介紹')
 st.sidebar.page_link('pages/page_1.py',  label='糖類')
@@ -168,17 +168,12 @@ with c17:
 # 製造間距
 st.write(f"")
 st.write(f"")
+st.write(f"")
+st.write(f"")
 
+# 網頁標題
+st.subheader('聯絡我們', divider='blue')
+st.write(f"手機: ")
+st.write(f"市話: ")
+st.write(f"Email: ")
 
-# 欄位排列
-left_column, right_column = st.columns(2)
-
-# button widget
-left_column.button('Press me!')
-
-# Or even better, call Streamlit functions inside a "with" block:
-with right_column:
-    chosen = st.radio(
-        'Sorting hat',
-        ("Gryffindor", "Ravenclaw", "Hufflepuff", "Slytherin"))
-    st.write(f"You are in {chosen} house!")
