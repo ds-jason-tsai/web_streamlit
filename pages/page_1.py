@@ -67,3 +67,4 @@ with right_column:
     }
 
     df = pd.DataFrame(data)
+    df
