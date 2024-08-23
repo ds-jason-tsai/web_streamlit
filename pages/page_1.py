@@ -35,12 +35,10 @@ st.sidebar.page_link('pages/page_17.py', label='香辛料')
 # 製造間距
 st.write(f"")
 st.write(f"")
+st.write(f"")
 
 # 網頁子標題
-st.subheader('產品細類')
-
-# 製造間距
-st.write(f"")
+st.write('產品細項')
 
 data = {
     "貨品編號": [
