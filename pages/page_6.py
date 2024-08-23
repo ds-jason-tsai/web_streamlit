@@ -42,4 +42,6 @@ st.write(f"")
 st.write('產品細項')
 
 df = pd.read_csv("./static/p6.csv")
+df['貨品編號'] = [str(d) for d in df['貨品編號']]
+
 st.dataframe(df, use_container_width=True)
