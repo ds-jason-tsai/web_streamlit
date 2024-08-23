@@ -28,11 +28,11 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.write(f"")
     st.header("100+")
-    st.subheader("飯店、餐飲集團合作")
+    st.subheader("飯店餐廳合作")
 with col2:
     st.write(f"")
     st.header("4.6★")
-    st.subheader("Google評論")
+    st.subheader("Google Map 評論")
 with col3:
     st.write(f"")
     st.header("1000+")
