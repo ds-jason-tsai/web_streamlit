@@ -66,5 +66,11 @@ with right_column:
     ]
     }
 
-    df = pd.DataFrame(data)
-    st.table(df)
+    df = pd.DataFrame(data, index=False)
+
+    # 使用 Styler 來調整顏色和樣式
+    styled_df = df.style.highlight_max(axis=0).set_table_styles(
+        [{'selector': 'th', 'props': [('font-size', '15px'), ('text-align', 'center')]}]
+    )
+
+    st.write(styled_df)
