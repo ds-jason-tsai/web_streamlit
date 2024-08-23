@@ -15,69 +15,27 @@ st.sidebar.page_link('pages/page_2.py', label='糖類')
 # image
 # st.image('https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=s774-k-no')
 
-# 加入自訂 CSS 和 JavaScript
+# 加入自訂 CSS
 st.markdown(
     """
     <style>
-    .carousel-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20px;
-    }
-    .carousel-wrapper {
-        display: flex;
-        overflow: hidden;
-        width: 220px; /* 只顯示兩個按鈕的寬度 */
-    }
-    .carousel-buttons {
-        display: flex;
-        transition: transform 0.5s ease;
-    }
-    .carousel-button {
-        flex: 0 0 100px; /* 每個按鈕的寬度 */
-        margin: 5px;
-        background-color: #cce7ff;
-        color: #000;
+    .custom-link {
+        display: block;
+        padding: 10px;
+        background-color: #cce7ff; /* 科技感淺藍色 */
+        color: #000; /* 文字顏色 */
         text-align: center;
-        padding: 10px;
+        text-decoration: none; /* 移除底線 */
         border-radius: 5px;
-        font-weight: bold;
-        cursor: pointer;
+        margin: 5px 0;
+        font-weight: bold; /* 字體加粗 */
+        transition: background-color 0.3s ease; /* 平滑過渡 */
     }
-    .nav-button {
-        cursor: pointer;
-        padding: 10px;
-        background-color: #cce7ff;
-        border-radius: 50%;
-        margin: 0 10px;
+    .custom-link:hover {
+        background-color: #99d0ff; /* 淺藍色 hover 效果 */
+        color: #000; /* 保持文字顏色 */
     }
     </style>
-
-    <div class="carousel-container">
-        <div class="nav-button" onclick="moveCarousel(-1)">◀</div>
-        <div class="carousel-wrapper">
-            <div class="carousel-buttons" id="carousel">
-                <div class="carousel-button" onclick="window.location.href='/page_1'">按鈕 1</div>
-                <div class="carousel-button" onclick="window.location.href='/page_2'">按鈕 2</div>
-                <div class="carousel-button" onclick="window.location.href='/page_3'">按鈕 3</div>
-                <div class="carousel-button" onclick="window.location.href='/page_4'">按鈕 4</div>
-            </div>
-        </div>
-        <div class="nav-button" onclick="moveCarousel(1)">▶</div>
-    </div>
-
-    <script>
-    let currentIndex = 0;
-    function moveCarousel(direction) {
-        const carousel = document.getElementById("carousel");
-        const buttons = document.querySelectorAll(".carousel-button");
-        const totalButtons = buttons.length;
-        currentIndex = (currentIndex + direction + totalButtons) % totalButtons;
-        const offset = -currentIndex * 110; // 每個按鈕的寬度加上間距
-        carousel.style.transform = `translateX(${offset}px)`;
-    }
-    </script>
     """,
     unsafe_allow_html=True
 )
@@ -86,21 +44,17 @@ st.markdown(
 c1, c2, c3, c4 = st.columns(4)
 
 with c1:
-    if st.button("分頁 1"):
-        st.experimental_set_query_params(page="page_1")
-        st.experimental_rerun()
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    unsafe_allow_html=True)
 with c2:
-    if st.button("分頁 2"):
-        st.experimental_set_query_params(page="page_2")
-        st.experimental_rerun()
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    unsafe_allow_html=True)
 with c3:
-    if st.button("分頁 3"):
-        st.experimental_set_query_params(page="page_3")
-        st.experimental_rerun()
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    unsafe_allow_html=True)
 with c4:
-    if st.button("分頁 4"):
-        st.experimental_set_query_params(page="page_4")
-        st.experimental_rerun()
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    unsafe_allow_html=True)
 
 
 # 欄位排列
