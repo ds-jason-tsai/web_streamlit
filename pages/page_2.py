@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title='糖類')
 
 # 網頁標題
-st.header('糖類')
+st.header('商品一')
 
 # Sidebar navigation
 st.sidebar.page_link('st.py', label='公司介紹') 
