@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-# 瀏覽器頁籤
+# 瀏覽器頁籤與其他設定
 st.set_page_config(page_title='啟元食品行', layout="wide")
 
 # 網頁標題
