@@ -88,4 +88,4 @@ data = {
 }
 
 df = pd.DataFrame(data)
-st.markdown(df.style.hide(axis="index").to_html(), unsafe_allow_html=True)
+st.dataframe(df, use_container_width=True)
