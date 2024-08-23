@@ -7,7 +7,7 @@ import streamlit as st
 # st.write(page)
 
 # 瀏覽器頁籤與其他設定
-st.set_page_config(page_title='啟元食品行', layout="wide")
+st.set_page_config(page_title='啟元食品行 | 宜蘭最佳食品供應商', layout="wide")
 
 # 網頁標題
 st.header('啟元食品行')
