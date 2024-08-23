@@ -19,8 +19,7 @@ with col1:
     st.image("https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=w203-h114-k-no")
 
 with col2:
-    st.header("A dog")
-    st.image("https://static.streamlit.io/examples/dog.jpg")
+    st.write("啓懋食品行為南北雜貨、烘焙食材，餐廳飯店食品材供應商我們重視每一位員工，除了有良好工作環境、也提供學習及成長的空間，歡迎優秀的朋友一起加入啓懋食品行的工作行列。")
 
 
 
