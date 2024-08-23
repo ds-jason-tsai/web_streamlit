@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import streamlit as st
 
@@ -40,5 +41,11 @@ st.write(f"")
 # 網頁子標題
 st.write('產品細項')
 
-df = pd.read_excel('\static\p6.xlsx')
+# current directory of the script
+current_dir = os.path.dirname(__file__)
+
+# join relative path of the file
+file_path = os.path.join(current_dir, 'web_streamlit\static\p6.xlsx')
+
+df = pd.read_excel(file_path)
 st.dataframe(df, use_container_width=True)
