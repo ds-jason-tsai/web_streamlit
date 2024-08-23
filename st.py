@@ -6,18 +6,13 @@ import streamlit as st
 st.set_page_config(page_title='啟元食品行', layout="wide")
 
 # 網頁標題
-st.subheader('啟元食品行', divider='blue')
+st.header('啟元食品行', divider='gray')
 
 # 製造間距
-st.write(f"")
-st.write(f"")
-st.write(f"")
-st.write(f"")
-st.write(f"")
-st.write(f"")
+st.write(f"")*10
 
 # 網頁標題
-st.subheader('產品分類', divider='blue')
+st.subheader('產品分類', divider='gray')
 # sidebar navigation
 st.sidebar.page_link('st.py', label='公司介紹')
 st.sidebar.page_link('pages/page_1.py',  label='糖類')
@@ -166,13 +161,10 @@ with c17:
 
 
 # 製造間距
-st.write(f"")
-st.write(f"")
-st.write(f"")
-st.write(f"")
+st.write(f"")*6
 
 # 網頁標題
-st.subheader('聯絡我們', divider='blue')
+st.subheader('聯絡我們', divider='gray')
 st.write(f"手機: ")
 st.write(f"市話: ")
 st.write(f"Email: ")
