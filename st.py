@@ -41,7 +41,7 @@ st.markdown(
 )
 
 # 欄位排列 | 商品類選單
-c1, c2, c3, c4, c5, c6 = st.columns(6)
+c1, c2, c3, c4, c5, c6, c7, c8, c9 = st.columns(9)
 
 with c1:
     st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
@@ -61,9 +61,6 @@ with c5:
 with c6:
     st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
     unsafe_allow_html=True)
-
-c7, c8, c9, c10, c11, c12 = st.columns(6)
-
 with c7:
     st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
     unsafe_allow_html=True)
@@ -73,6 +70,9 @@ with c8:
 with c9:
     st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
     unsafe_allow_html=True)
+
+c10, c11, c12, c13, c14, c15, c16, c17, c18 = st.columns(9)
+
 with c10:
     st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
     unsafe_allow_html=True)
@@ -82,9 +82,6 @@ with c11:
 with c12:
     st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
     unsafe_allow_html=True)
-
-c13, c14, c15, c16, c17, c18 = st.columns(6)
-
 with c13:
     st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
     unsafe_allow_html=True)
