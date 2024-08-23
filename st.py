@@ -56,6 +56,8 @@ with c4:
     st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
     unsafe_allow_html=True)
 
+# 製造空格
+st.write(f"")
 
 # 欄位排列
 left_column, right_column = st.columns(2)
