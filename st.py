@@ -6,7 +6,7 @@ import streamlit as st
 st.set_page_config(page_title='啟元食品行', layout="wide")
 
 # 網頁標題
-st.header('啟元食品行', divider='gray')
+st.header('啟元食品行')
 
 # 製造間距
 st.write(f"")
@@ -17,9 +17,13 @@ st.write(f"")
 st.write(f"")
 st.write(f"")
 st.write(f"")
+st.write(f"")
+st.write(f"")
+st.write(f"")
+st.write(f"")
 
 # 網頁標題
-st.subheader('產品分類', divider='gray')
+st.subheader('產品分類')
 # sidebar navigation
 st.sidebar.page_link('st.py', label='公司介紹')
 st.sidebar.page_link('pages/page_1.py',  label='糖類')
