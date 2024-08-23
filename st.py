@@ -10,7 +10,7 @@ import streamlit as st
 st.set_page_config(page_title='啟元食品行', layout="wide")
 
 # 網頁標題
-st.header('啟元食品行 | 宜蘭最佳食品供應商')
+st.header('啟元食品行  |  宜蘭最佳食品供應商')
 
 # 製造間距
 st.write(f"")
