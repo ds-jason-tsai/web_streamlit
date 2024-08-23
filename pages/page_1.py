@@ -1,6 +1,6 @@
 import streamlit as st
 
-prod_type = '麵粉類'
+prod_type = '糖類'
 
 # 瀏覽器頁籤
 st.set_page_config(page_title=prod_type)
