@@ -41,7 +41,7 @@ st.markdown(
 )
 
 # 欄位排列 | 商品類選單
-c1, c2, c3, c4 = st.columns(5)
+c1, c2, c3, c4, c5 = st.columns(5)
 
 with c1:
     st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
