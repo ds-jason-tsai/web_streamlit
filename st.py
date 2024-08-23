@@ -243,6 +243,14 @@ with col1:
     st.write(f"")
     st.subheader("客戶一")
     st.write("初到宜蘭尋找烘焙材料行，結果發現這間賣南北貨食材，一問才知旁邊另外裝潢一間專賣烘焙材料用品，光麵粉和糖選擇很多，模具也很多，要用的大部份都找得到，逛起來舒適，老闆有問必答，態度好很用心，有需要的人可以來這買。")
+    st.markdown(
+        """
+        <a href="https://example.com/icon1" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/128/11478/11478510.png" width="30" height="30" style="vertical-align: middle;">
+        </a>
+        """,
+        unsafe_allow_html=True
+    )
 with col2:
     st.write(f"")
     st.subheader("客戶二")
