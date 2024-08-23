@@ -34,11 +34,21 @@ with col1:
 with col2:
     st.write(f"")
     st.markdown("<h1 style='color: orange;'>4.6★</h1>", unsafe_allow_html=True)
-    st.markdown("<h4>Google Map 評論</h4>", unsafe_allow_html=True)
+    st.markdown(
+        """
+        <div style='border-left: 8px solid white; padding-left: 8px; margin-bottom: 8px;'>
+        <h4  style='margin: 0;'>Google Map 評論 </h4></div>
+        """, unsafe_allow_html=True
+    )
 with col3:
     st.write(f"")
     st.markdown("<h1 style='color: orange;'>1000+</h1>", unsafe_allow_html=True)
-    st.markdown("<h4>商品種類齊全</h4>", unsafe_allow_html=True)
+    st.markdown(
+        """
+        <div style='border-left: 8px solid white; padding-left: 8px; margin-bottom: 8px;'>
+        <h4  style='margin: 0;'>商品種類齊全 </h4></div>
+        """, unsafe_allow_html=True
+    )
 
 st.write(f"")
 st.write(f"")
