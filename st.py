@@ -237,7 +237,7 @@ st.write(f"")
 st.write(f"")
 
 # 網頁標題
-st.subheader('客戶怎麼說？', divider='gray')
+st.subheader('客戶回饋', divider='gray')
 col1, col2, col3 = st.columns(3)
 with col1:
     st.write(f"")
