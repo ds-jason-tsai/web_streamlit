@@ -23,17 +23,17 @@ st.markdown(
         display: block;
         padding: 10px;
         background-color: #cce7ff; /* 科技感淺藍色 */
-        color: #000; /* 文字顏色 */
+        color: #333; /* 淺黑色文字顏色 */
         text-align: center;
         text-decoration: none; /* 移除底線 */
         border-radius: 5px;
         margin: 5px 0;
-        font-weight: bold; /* 字體加粗 */
+        font-weight: normal; /* 去掉加粗 */
         transition: background-color 0.3s ease; /* 平滑過渡 */
     }
     .custom-link:hover {
         background-color: #99d0ff; /* 淺藍色 hover 效果 */
-        color: #000; /* 保持文字顏色 */
+        color: #333; /* 保持淺黑色文字顏色 */
     }
     </style>
     """,
