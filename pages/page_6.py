@@ -1,3 +1,4 @@
+import pandas as pd
 import streamlit as st
 
 prod_type = '醬油類'
@@ -29,12 +30,15 @@ st.sidebar.page_link('pages/page_16.py', label='泡麵類')
 st.sidebar.page_link('pages/page_17.py', label='香辛料')
 
 # 欄位排列
-left_column, right_column = st.columns(2)
+# left_column, right_column = st.columns(2)
 
-with left_column:
-    st.header('圖片')
-    st.write('左側')
+# 製造間距
+st.write(f"")
+st.write(f"")
+st.write(f"")
 
-with right_column:
-    st.header('介紹')
-    st.write('右側')
+# 網頁子標題
+st.write('產品細項')
+
+df = pd.read_excel('web_streamlit\static\p6.xlsx')
+st.dataframe(df, use_container_width=True)
