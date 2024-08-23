@@ -1,3 +1,4 @@
+import pandas as pd
 import streamlit as st
 
 prod_type = '麵粉類'
@@ -29,12 +30,46 @@ st.sidebar.page_link('pages/page_16.py', label='泡麵類')
 st.sidebar.page_link('pages/page_17.py', label='香辛料')
 
 # 欄位排列
-left_column, right_column = st.columns(2)
+# left_column, right_column = st.columns(2)
 
-with left_column:
-    st.header('圖片')
-    st.write('左側')
+# 製造間距
+st.write(f"")
+st.write(f"")
+st.write(f"")
 
-with right_column:
-    st.header('介紹')
-    st.write('右側')
+# 網頁子標題
+st.write('產品細項')
+
+data = {
+    "貨品編號": [
+        "1202000", "1202003", "1203000", "1204002", "1204004", "1204005", 
+        "1204006", "1204007", "1204019", "1204020", "1205000", "1209002", 
+        "1209003", "1220000", "3110102", "3110106", "31101031"
+    ],
+    "貨品名稱": [
+        "福有特22KG",
+        "中筋E3麵粉22KG",
+        "台灣大<低筋> 22KG",
+        "活力*強*(高筋１)22KG",
+        "活力Q1麵粉-22KG",
+        "活力Q2麵粉-22KG",
+        "藍帶<特３>麵粉-22KG",
+        "藍帶<特２>麵粉-22KG",
+        "活力Ｑ６麵粉-22K",
+        "專用E6麵粉-22KG",
+        "福有油條粉22KG",
+        "活力綿＜蛋糕低筋＞22KG",
+        "活力綿特高1號A1麵粉22K",
+        "全麥麵粉-22KG",
+        "嘉禾低筋麵粉1K-12包入",
+        "嘉禾高筋麵粉1K-12包入",
+        "嘉禾中筋麵粉1K-12包入"
+    ],
+    "單位": [
+        "件", "件", "件", "件", "件", "件", "件", "件", "件", 
+        "件", "件", "件", "件", "件", "箱", "箱", "箱"
+    ]
+}
+
+df = pd.DataFrame(data)
+st.dataframe(df, use_container_width=True)
