@@ -181,7 +181,6 @@ st.write(f"")
 
 # 網頁標題
 st.subheader('聯絡我們', divider='gray')
-st.write(f"手機: ")
-st.write(f"市話: ")
-st.write(f"Email: ")
+st.write(f"市話: 03-9309578")
+st.write(f"地址: (260)宜蘭縣宜蘭市七張路333號")
 
