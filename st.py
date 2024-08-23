@@ -15,29 +15,18 @@ st.sidebar.page_link('pages/page_2.py', label='糖類')
 # image
 # st.image('https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=s774-k-no')
 
-# 加入自訂 CSS 來修改背景顏色
+
+# 加入自訂 CSS 來修改背景顏色和連結樣式
 st.markdown(
     """
     <style>
     body {
         background-color: #000; /* 設置背景顏色為黑色 */
-        color: #fff; /* 設置文字顏色為白色，以便於在黑色背景上閱讀 */
+        color: #fff; /* 設置文字顏色為白色 */
     }
-    .css-1d391kg { 
-        background-color: #000 !important; /* 確保 Streamlit 的內部容器也使用黑色背景 */
+    .css-1d391kg, .css-1e1f3sq { 
+        background-color: #000 !important; /* 確保 Streamlit 的內部容器和主內容區域使用黑色背景 */
     }
-    .css-1e1f3sq { 
-        background-color: #000 !important; /* 確保主內容區域使用黑色背景 */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-# 加入自訂 CSS
-st.markdown(
-    """
-    <style>
     .custom-link {
         display: block;
         padding: 10px;
