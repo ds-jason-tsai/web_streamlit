@@ -41,13 +41,13 @@ st.markdown(
 c1, c2, c3, c4 = st.columns(4)
 
 with c1:
-    st.markdown('<a class="custom-link" href="/page_2">分頁連結</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_2.py">分頁連結</a>', unsafe_allow_html=True)
 with c2:
-    st.markdown('<a class="custom-link" href="/page_2">分頁連結</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_2.py">分頁連結</a>', unsafe_allow_html=True)
 with c3:
-    st.markdown('<a class="custom-link" href="/page_2">分頁連結</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_2.py">分頁連結</a>', unsafe_allow_html=True)
 with c4:
-    st.markdown('<a class="custom-link" href="/page_2">分頁連結</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_2.py">分頁連結</a>', unsafe_allow_html=True)
 
 
 # 欄位排列
