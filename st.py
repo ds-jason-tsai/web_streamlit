@@ -28,15 +28,15 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.write(f"")
     st.markdown("<h1 style='color: orange;'>100+</h1>", unsafe_allow_html=True)
-    st.markdown("<h5>飯店餐廳合作</h5>", unsafe_allow_html=True)
+    st.markdown("<h4>飯店餐廳合作</h4>", unsafe_allow_html=True)
 with col2:
     st.write(f"")
-    st.header("4.6★")
-    st.subheader("Google Map 評論")
+    st.markdown("<h1 style='color: orange;'>4.6★</h1>", unsafe_allow_html=True)
+    st.markdown("<h4>Google Map 評論</h4>", unsafe_allow_html=True)
 with col3:
     st.write(f"")
-    st.header("1000+")
-    st.subheader("商品種類齊全")
+    st.markdown("<h1 style='color: orange;'>1000+</h1>", unsafe_allow_html=True)
+    st.markdown("<h4>商品種類齊全</h4>", unsafe_allow_html=True)
 
 st.write(f"")
 st.write(f"")
