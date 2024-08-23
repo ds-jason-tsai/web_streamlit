@@ -77,6 +77,15 @@ with c10:
     st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
     unsafe_allow_html=True)
 
+c11, c12, c13, c14, c15 = st.columns(5)
+
+with c11:
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    unsafe_allow_html=True)
+with c12:
+    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
+    unsafe_allow_html=True)
+
 
 # 製造間距
 st.write(f"")
