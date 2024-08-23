@@ -22,8 +22,8 @@ st.markdown(
     .custom-link {
         display: block;
         padding: 10px;
-        background-color: #cce7ff; /* 科技感淺藍色 */
-        color: #333; /* 淺黑色文字顏色 */
+        background-color: #FFA421; /* 黃色 */
+        color: #F2F4F8; /* 白色文字 */
         text-align: center;
         text-decoration: none; /* 移除底線 */
         border-radius: 5px;
