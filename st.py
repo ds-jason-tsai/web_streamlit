@@ -5,8 +5,8 @@ import streamlit as st
 # 瀏覽器頁籤
 st.set_page_config(page_title='啟元食品行')
 
-# 頁籤名稱
-st.header('公司介紹')
+# 網頁標題
+st.header('首頁')
 
 # Sidebar navigation
 st.sidebar.page_link('st.py', label='公司介紹') 

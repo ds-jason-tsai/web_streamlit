@@ -3,7 +3,7 @@ import streamlit as st
 # 瀏覽器頁籤
 st.set_page_config(page_title='糖類')
 
-# 頁籤名稱
+# 網頁標題
 st.header('糖類')
 
 # Sidebar navigation
