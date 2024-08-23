@@ -96,7 +96,7 @@ with c6:
                  unsafe_allow_html=True)
 with c7:
     st.markdown('<a class="custom-link" href="/page_7" target="_self"> \
-                 <i class="fas fa-can"></i> 罐頭類</a>', 
+                 <i class="fas fa-oil-can"></i> 罐頭類</a>', 
                  unsafe_allow_html=True)
 
 c8, c9, c10, c11, c12, c13, c14 = st.columns(7)
