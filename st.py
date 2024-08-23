@@ -9,7 +9,14 @@ st.set_page_config(page_title='啟元食品行', layout="wide")
 st.header('啟元食品行', divider='gray')
 
 # 製造間距
-st.write(f"")*10
+st.write(f"")
+st.write(f"")
+st.write(f"")
+st.write(f"")
+st.write(f"")
+st.write(f"")
+st.write(f"")
+st.write(f"")
 
 # 網頁標題
 st.subheader('產品分類', divider='gray')
@@ -161,7 +168,12 @@ with c17:
 
 
 # 製造間距
-st.write(f"")*6
+st.write(f"")
+st.write(f"")
+st.write(f"")
+st.write(f"")
+st.write(f"")
+st.write(f"")
 
 # 網頁標題
 st.subheader('聯絡我們', divider='gray')
