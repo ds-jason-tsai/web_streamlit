@@ -23,21 +23,20 @@ st.write(f"")
 st.write(f"")
 st.write(f"")
 
-# 網頁標題
-st.subheader('特色')
+# HighLight
 col1, col2, col3 = st.columns(3)
 with col1:
     st.write(f"")
-    st.subheader("100+")
-    st.write("飯店、餐飲集團合作")
+    st.header("100+")
+    st.subheader("飯店、餐飲集團合作")
 with col2:
     st.write(f"")
-    st.subheader("4.6★")
-    st.write("Google評論")
+    st.header("4.6★")
+    st.subheader("Google評論")
 with col3:
     st.write(f"")
-    st.subheader("1000+")
-    st.write("商品種類齊全")
+    st.header("1000+")
+    st.subheader("商品種類齊全")
 
 st.write(f"")
 st.write(f"")
