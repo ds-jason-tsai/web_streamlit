@@ -1,10 +1,10 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-# from streamlit_navigation_bar import st_navbar
+from streamlit_navigation_bar import st_navbar
 
-# page = st_navbar(["Home", "Documentation", "Examples", "Community", "About"])
-# st.write(page)
+page = st_navbar(["Home", "Documentation", "Examples", "Community", "About"])
+st.write(page)
 
 # 瀏覽器頁籤與其他設定
 st.set_page_config(page_title='啟元食品行', layout="wide")
