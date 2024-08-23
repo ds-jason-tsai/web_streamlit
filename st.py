@@ -58,10 +58,10 @@ st.markdown(
         <div class="nav-button" onclick="moveCarousel(-1)">◀</div>
         <div class="carousel-wrapper">
             <div class="carousel-buttons" id="carousel">
-                <div class="carousel-button" onclick="window.location.href='/page_2'">按鈕 1</div>
+                <div class="carousel-button" onclick="window.location.href='/page_1'">按鈕 1</div>
                 <div class="carousel-button" onclick="window.location.href='/page_2'">按鈕 2</div>
-                <div class="carousel-button" onclick="window.location.href='/page_2'">按鈕 3</div>
-                <div class="carousel-button" onclick="window.location.href='/page_2'">按鈕 4</div>
+                <div class="carousel-button" onclick="window.location.href='/page_3'">按鈕 3</div>
+                <div class="carousel-button" onclick="window.location.href='/page_4'">按鈕 4</div>
             </div>
         </div>
         <div class="nav-button" onclick="moveCarousel(1)">▶</div>
@@ -86,17 +86,21 @@ st.markdown(
 c1, c2, c3, c4 = st.columns(4)
 
 with c1:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
-    unsafe_allow_html=True)
+    if st.button("分頁 1"):
+        st.experimental_set_query_params(page="page_1")
+        st.experimental_rerun()
 with c2:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
-    unsafe_allow_html=True)
+    if st.button("分頁 2"):
+        st.experimental_set_query_params(page="page_2")
+        st.experimental_rerun()
 with c3:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
-    unsafe_allow_html=True)
+    if st.button("分頁 3"):
+        st.experimental_set_query_params(page="page_3")
+        st.experimental_rerun()
 with c4:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">分頁連結</a>', 
-    unsafe_allow_html=True)
+    if st.button("分頁 4"):
+        st.experimental_set_query_params(page="page_4")
+        st.experimental_rerun()
 
 
 # 欄位排列
