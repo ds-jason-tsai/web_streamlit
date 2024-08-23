@@ -4,7 +4,7 @@ import streamlit as st
 prod_type = '糖類'
 
 # 瀏覽器頁籤
-st.set_page_config(page_title='糖類', layout="wide")
+st.set_page_config(page_title=prod_type, layout="wide")
 
 # 網頁標題
 st.header(prod_type)
@@ -84,4 +84,4 @@ data = {
 }
 
 df = pd.DataFrame(data)
-st.write(df)
+st.dataframe(df, use_container_width=True)
