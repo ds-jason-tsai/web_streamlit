@@ -13,6 +13,17 @@ st.write(f"")
 st.write(f"")
 st.write(f"")
 st.write(f"")
+
+col1, col2 = st.columns(2)
+with col1:
+    st.image("https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=w203-h114-k-no")
+
+with col2:
+    st.header("A dog")
+    st.image("https://static.streamlit.io/examples/dog.jpg")
+
+
+
 st.write(f"")
 st.write(f"")
 st.write(f"")
