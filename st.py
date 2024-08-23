@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-from streamlit_navigation_bar import st_navbar
+# from streamlit_navigation_bar import st_navbar
 
 # page = st_navbar(["Home", "Documentation", "Examples", "Community", "About"])
 # st.write(page)
