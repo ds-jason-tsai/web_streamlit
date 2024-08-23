@@ -87,5 +87,5 @@ data = {
     ]
 }
 
-df = pd.DataFrame(data, index="貨品編號")
+df = pd.DataFrame(data)
 st.dataframe(df, use_container_width=True)
