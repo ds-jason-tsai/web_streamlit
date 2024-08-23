@@ -15,6 +15,19 @@ st.sidebar.page_link('pages/page_2.py', label='糖類')
 # image
 # st.image('https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=s774-k-no')
 
+# 欄位排列 | 商品類選單
+c1, c2, c3, c4 = st.columns(4)
+
+with c1:
+    st.page_link("pages/page_2.py", label="分頁連結")
+with c2:
+    st.page_link("pages/page_2.py", label="分頁連結")
+with c3:
+    st.page_link("pages/page_2.py", label="分頁連結")
+with c4:
+    st.page_link("pages/page_2.py", label="分頁連結")
+
+
 # 欄位排列
 left_column, right_column = st.columns(2)
 
