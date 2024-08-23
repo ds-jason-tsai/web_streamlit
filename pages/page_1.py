@@ -66,7 +66,7 @@ with right_column:
     ]
     }
 
-    df = pd.DataFrame(data, index=False)
+    df = pd.DataFrame(data)
 
     # 使用 Styler 來調整顏色和樣式
     styled_df = df.style.highlight_max(axis=0).set_table_styles(
