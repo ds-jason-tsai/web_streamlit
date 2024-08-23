@@ -9,3 +9,13 @@ st.header('糖類')
 # Sidebar navigation
 st.sidebar.page_link('st.py', label='公司介紹') 
 st.sidebar.page_link('pages/page_2.py', label='糖類')
+
+
+# 欄位排列
+left_column, right_column = st.columns(2)
+
+with left_column:
+    st.write('左側')
+
+with right_column:
+    st.write('右側')

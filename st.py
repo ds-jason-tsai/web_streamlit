@@ -12,45 +12,13 @@ st.header('首頁')
 st.sidebar.page_link('st.py', label='公司介紹') 
 st.sidebar.page_link('pages/page_2.py', label='糖類')
 
+# image
 # st.image('https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=s774-k-no')
 
-st.text_input("Your name", key="name")
-
-# You can access the value at any point with:
-st.session_state.name + '-name'
-
-if st.checkbox('Show dataframe'):
-    chart_data = pd.DataFrame(
-       np.random.randn(20, 3),
-       columns=['a', 'b', 'c'])
-
-    chart_data
-  
-df = pd.DataFrame({
-    'first column': [1, 2, 3, 4],
-    'second column': [10, 20, 30, 40]
-    })
-
-option = st.selectbox(
-    'Which number do you like best?',
-     df['first column'])
-
-'You selected: ', option
-
-# add_selectbox = st.sidebar.selectbox(
-#     'How would you like to be contacted?',
-#     ('Email', 'Home phone', 'Mobile phone')
-# )
-
-# Add a slider(滑桿) to the sidebar:
-# add_slider = st.sidebar.slider(
-#     'Select a range of values',
-#     0.0, 100.0, (25.0, 75.0)
-# )
-
-# 設定左右欄位
+# 欄位排列
 left_column, right_column = st.columns(2)
-# You can use a column just like st.sidebar:
+
+# button widget
 left_column.button('Press me!')
 
 # Or even better, call Streamlit functions inside a "with" block:
