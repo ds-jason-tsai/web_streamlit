@@ -246,7 +246,7 @@ with col1:
     st.markdown(
         """
         <a href="https://example.com/icon1" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/128/11478/11478510.png" width="30" height="30" style="vertical-align: middle;">
+            <img src="https://cdn-icons-png.flaticon.com/128/15343/15343799.png" width="30" height="30" style="vertical-align: middle;">
         </a>
         """,
         unsafe_allow_html=True
