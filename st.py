@@ -8,9 +8,10 @@ st.set_page_config(page_title='啟元食品行', layout="wide")
 # 網頁標題
 st.header('首頁')
 
-# Sidebar navigation
+# sidebar navigation
 st.sidebar.page_link('st.py', label='公司介紹') 
 st.sidebar.page_link('pages/page_2.py', label='糖類')
+st.sidebar.page_link('pages/page_2.py', label='麵粉類')
 
 # image
 # st.image('https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=s774-k-no')
