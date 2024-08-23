@@ -15,6 +15,28 @@ st.sidebar.page_link('pages/page_2.py', label='糖類')
 # image
 # st.image('https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=s774-k-no')
 
+# 加入自訂 CSS
+st.markdown(
+    """
+    <style>
+    .custom-link {
+        display: block;
+        padding: 10px;
+        background-color: #f0f0f0;
+        color: #000;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 5px 0;
+    }
+    .custom-link:hover {
+        background-color: #d0d0d0;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # 欄位排列 | 商品類選單
 c1, c2, c3, c4 = st.columns(4)
 
