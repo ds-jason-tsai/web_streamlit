@@ -22,7 +22,7 @@ st.markdown(
     .custom-link {
         display: block;
         padding: 10px;
-        background-color: #f0f0f0;
+        background-color: #d3f9d8; /* 淺綠色 */
         color: #000;
         text-align: center;
         text-decoration: none;
@@ -30,7 +30,7 @@ st.markdown(
         margin: 5px 0;
     }
     .custom-link:hover {
-        background-color: #d0d0d0;
+        background-color: #b5e7b3; /* 淺綠色 hover 效果 */
     }
     </style>
     """,
@@ -41,13 +41,13 @@ st.markdown(
 c1, c2, c3, c4 = st.columns(4)
 
 with c1:
-    st.markdown('<a class="custom-link" href="pages/page_2.py">分頁連結</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/pages/page_2.py">分頁連結</a>', unsafe_allow_html=True)
 with c2:
-    st.markdown('<a class="custom-link" href="pages/page_2.py">分頁連結</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/pages/page_2.py">分頁連結</a>', unsafe_allow_html=True)
 with c3:
-    st.markdown('<a class="custom-link" href="pages/page_2.py">分頁連結</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/pages/page_2.py">分頁連結</a>', unsafe_allow_html=True)
 with c4:
-    st.markdown('<a class="custom-link" href="pages/page_2.py">分頁連結</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/pages/page_2.py">分頁連結</a>', unsafe_allow_html=True)
 
 
 # 欄位排列
