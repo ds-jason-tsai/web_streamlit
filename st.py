@@ -68,7 +68,7 @@ st.markdown(
 )
 
 # 欄位排列 | 商品類選單
-c1, c2, c3, c4, c5, c6, c7, c8, c9 = st.columns(9)
+c1, c2, c3, c4, c5, c6, c7 = st.columns(7)
 
 with c1:
     st.markdown('<a class="custom-link" href="/page_1" target="_self"><i class="fas fa-cube"></i> 糖類</a>', unsafe_allow_html=True)
@@ -84,13 +84,13 @@ with c6:
     st.markdown('<a class="custom-link" href="/page_6" target="_self"><i class="fas fa-bottle"></i> 醬油類</a>', unsafe_allow_html=True)
 with c7:
     st.markdown('<a class="custom-link" href="/page_7" target="_self"><i class="fas fa-can"></i> 罐頭類</a>', unsafe_allow_html=True)
+
+c8, c9, c10, c11, c12, c13, c14 = st.columns(7)
+
 with c8:
     st.markdown('<a class="custom-link" href="/page_8" target="_self"><i class="fas fa-carrot"></i> 農產品</a>', unsafe_allow_html=True)
 with c9:
     st.markdown('<a class="custom-link" href="/page_9" target="_self"><i class="fas fa-fish"></i> 海產類</a>', unsafe_allow_html=True)
-
-c10, c11, c12, c13, c14, c15, c16, c17, c18 = st.columns(9)
-
 with c10:
     st.markdown('<a class="custom-link" href="/page_10" target="_self"><i class="fas fa-seedling"></i> 豆類</a>', unsafe_allow_html=True)
 with c11:
@@ -99,6 +99,8 @@ with c12:
     st.markdown('<a class="custom-link" href="/page_12" target="_self"><i class="fas fa-box-open"></i> 雜貨類</a>', unsafe_allow_html=True)
 with c13:
     st.markdown('<a class="custom-link" href="/page_13" target="_self"><i class="fas fa-ice-cream"></i> 冰用品</a>', unsafe_allow_html=True)
+
+c15, c16, c17, c18 , c19 , c20 , c21 = st.columns(7)
 with c14:
     st.markdown('<a class="custom-link" href="/page_14" target="_self"><i class="fas fa-coffee"></i> 茶咖啡</a>', unsafe_allow_html=True)
 with c15:
