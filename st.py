@@ -14,7 +14,7 @@ st.write(f"")
 st.write(f"")
 st.write(f"")
 
-col1, col2, col3 = st.columns(4)
+col1, col2, col3 = st.columns(3)
 with col1:
     st.image("https://lh5.googleusercontent.com/p/AF1QipMsRbfascvOIbfRSoaEKPJhZOwx9opM_VJSJlJe=s580-k-no")
 with col2:
