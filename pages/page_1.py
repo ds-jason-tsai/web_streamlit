@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-from st_aggrid import AgGrid
 
 prod_type = '糖類'
 
@@ -68,4 +67,4 @@ with right_column:
     }
 
     df = pd.DataFrame(data)
-    AgGrid(df)
+    st.table(df)
