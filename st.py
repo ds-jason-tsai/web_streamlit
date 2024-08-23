@@ -71,44 +71,78 @@ st.markdown(
 c1, c2, c3, c4, c5, c6, c7 = st.columns(7)
 
 with c1:
-    st.markdown('<a class="custom-link" href="/page_1" target="_self"><i class="fas fa-cube"></i> 糖類</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_1" target="_self"> \
+                 <i class="fas fa-cube"></i> 糖類</a>', 
+                 unsafe_allow_html=True)
 with c2:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self"><i class="fas fa-bread-slice"></i> 麵粉類</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_2" target="_self"> \
+                 <i class="fas fa-bread-slice"></i> 麵粉類</a>', 
+                 unsafe_allow_html=True)
 with c3:
-    st.markdown('<a class="custom-link" href="/page_3" target="_self"><i class="fas fa-boxes"></i> 粉類</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_3" target="_self"> \
+                 <i class="fas fa-boxes"></i> 粉類</a>', 
+                 unsafe_allow_html=True)
 with c4:
-    st.markdown('<a class="custom-link" href="/page_4" target="_self"><i class="fas fa-oil-can"></i> 油類</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_4" target="_self"> \
+                 <i class="fas fa-oil-can"></i> 油類</a>', 
+                 unsafe_allow_html=True)
 with c5:
-    st.markdown('<a class="custom-link" href="/page_5" target="_self"><i class="fas fa-mortar-pestle"></i> 調味料</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_5" target="_self"> \
+                 <i class="fas fa-mortar-pestle"></i> 調味料</a>', 
+                 unsafe_allow_html=True)
 with c6:
-    st.markdown('<a class="custom-link" href="/page_6" target="_self"><i class="fas fa-bottle"></i> 醬油類</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_6" target="_self"> \
+                 <i class="fas fa-prescription-bottle-alt"></i> 醬油類</a>', 
+                 unsafe_allow_html=True)
 with c7:
-    st.markdown('<a class="custom-link" href="/page_7" target="_self"><i class="fas fa-can"></i> 罐頭類</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_7" target="_self"> \
+                 <i class="fas fa-can"></i> 罐頭類</a>', 
+                 unsafe_allow_html=True)
 
 c8, c9, c10, c11, c12, c13, c14 = st.columns(7)
 
 with c8:
-    st.markdown('<a class="custom-link" href="/page_8" target="_self"><i class="fas fa-carrot"></i> 農產品</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_8" target="_self"> \
+                 <i class="fas fa-carrot"></i> 農產品</a>', 
+                 unsafe_allow_html=True)
 with c9:
-    st.markdown('<a class="custom-link" href="/page_9" target="_self"><i class="fas fa-fish"></i> 海產類</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_9" target="_self"> \
+                 <i class="fas fa-fish"></i> 海產類</a>', 
+                 unsafe_allow_html=True)
 with c10:
-    st.markdown('<a class="custom-link" href="/page_10" target="_self"><i class="fas fa-seedling"></i> 豆類</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_10" target="_self"> \
+                 <i class="fas fa-seedling"></i> 豆類</a>', 
+                 unsafe_allow_html=True)
 with c11:
-    st.markdown('<a class="custom-link" href="/page_11" target="_self"><i class="fas fa-leaf"></i> 中藥</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_11" target="_self"> \
+                 <i class="fas fa-leaf"></i> 中藥</a>', 
+                 unsafe_allow_html=True)
 with c12:
-    st.markdown('<a class="custom-link" href="/page_12" target="_self"><i class="fas fa-box-open"></i> 雜貨類</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_12" target="_self"> \
+                 <i class="fas fa-box-open"></i> 雜貨類</a>', 
+                 unsafe_allow_html=True)
 with c13:
-    st.markdown('<a class="custom-link" href="/page_13" target="_self"><i class="fas fa-ice-cream"></i> 冰用品</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_13" target="_self"> \
+                 <i class="fas fa-ice-cream"></i> 冰用品</a>', 
+                 unsafe_allow_html=True)
 
 c15, c16, c17, c18 , c19 , c20 , c21 = st.columns(7)
 with c14:
-    st.markdown('<a class="custom-link" href="/page_14" target="_self"><i class="fas fa-coffee"></i> 茶咖啡</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_14" target="_self"> \
+                 <i class="fas fa-coffee"></i> 茶咖啡</a>', 
+                 unsafe_allow_html=True)
 with c15:
-    st.markdown('<a class="custom-link" href="/page_15" target="_self"><i class="fas fa-drumstick-bite"></i> 王子麵</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_15" target="_self"> \
+                 <i class="fas fa-drumstick-bite"></i> 王子麵</a>', 
+                 unsafe_allow_html=True)
 with c16:
-    st.markdown('<a class="custom-link" href="/page_16" target="_self"><i class="fas fa-ramen"></i> 泡麵類</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_16" target="_self"> \
+                 <i class="fas fa-ramen"></i> 泡麵類</a>', 
+                 unsafe_allow_html=True)
 with c17:
-    st.markdown('<a class="custom-link" href="/page_17" target="_self"><i class="fas fa-pepper-hot"></i> 香辛料</a>', unsafe_allow_html=True)
+    st.markdown('<a class="custom-link" href="/page_17" target="_self"> \
+                 <i class="fas fa-pepper-hot"></i> 香辛料</a>', 
+                 unsafe_allow_html=True)
 
 
 # 製造間距
