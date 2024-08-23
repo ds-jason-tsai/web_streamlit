@@ -137,7 +137,7 @@ with c15:
                  unsafe_allow_html=True)
 with c16:
     st.markdown('<a class="custom-link" href="/page_16" target="_self"> \
-                 <i class="fas fa-ramen"></i> 泡麵類</a>', 
+                 <i class="fas fa-utensil-spoon"></i> 泡麵類</a>', 
                  unsafe_allow_html=True)
 with c17:
     st.markdown('<a class="custom-link" href="/page_17" target="_self"> \
