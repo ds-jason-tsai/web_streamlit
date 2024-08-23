@@ -3,7 +3,7 @@ import streamlit as st
 prod_type = '油類'
 
 # 瀏覽器頁籤
-st.set_page_config(page_title=prod_type)
+st.set_page_config(page_title=prod_type, layout="wide")
 
 # 網頁標題
 st.header(prod_type)
