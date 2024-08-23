@@ -48,7 +48,7 @@ with c1:
     st.markdown('<a class="custom-link" href="/page_2" target="_self">糖類</a>', 
     unsafe_allow_html=True)
 with c2:
-    st.markdown('<a class="custom-link" href="/page_2" target="_self">麵粉類</a>', 
+    st.markdown('<a class="custom-link" href="/page_3" target="_self">麵粉類</a>', 
     unsafe_allow_html=True)
 with c3:
     st.markdown('<a class="custom-link" href="/page_2" target="_self">粉類</a>', 
