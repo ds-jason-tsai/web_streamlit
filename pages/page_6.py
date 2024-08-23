@@ -8,7 +8,7 @@ prod_type = '醬油類'
 st.set_page_config(page_title=prod_type, layout="wide")
 
 # 網頁標題
-st.header(prod_type, divider='violet')
+st.header(prod_type, divider='blue')
 
 # sidebar navigation
 st.sidebar.page_link('st.py', label='公司介紹')
