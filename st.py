@@ -14,9 +14,6 @@ st.header('啟元食品行   |   宜蘭最佳食品供應商')
 
 # 製造間距
 st.write(f"")
-st.write(f"")
-st.write(f"")
-
 # st.image("https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=s774-k-no")
 
 st.write(f"")
@@ -30,7 +27,7 @@ with col1:
     st.markdown("<h1 style='color: orange;'>100+</h1>", unsafe_allow_html=True)
     st.markdown(
         """
-        <div style='border-bottom: 2px solid white; padding-right: 10px; margin-bottom: 10px;'>
+        <div style='border-right: 2px solid white; padding-right: 10px; margin-bottom: 10px;'>
         <h4  style='margin: 0;'>飯店餐廳合作 </h4></div>
         """, unsafe_allow_html=True
     )
