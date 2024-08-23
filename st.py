@@ -254,11 +254,28 @@ with col1:
 with col2:
     st.write(f"")
     st.subheader("客戶二")
-    st.write("是一間很優質的食品材料行，東西齊全價格合理，旁邊的烘焙材料行物品也很齊全，很多種類可以選擇。但有個小小的請求，因為不是住在宜蘭市區，通常都只有假日才能前往，之前星期六都有營業，現在六日都休息，變得沒有辦法去購買，好困擾，希望能營業星期六的某一個時段，像是早上、中午或者下午")
+    st.write("是一間很優質的食品材料行，東西齊全價格合理，旁邊的烘焙材料行物品也很齊全，很多種類可以選擇。但有個小小的請求，因為不是住在宜蘭市區，通常都只有假日才能前往，之前星期六都有營業，現在六日都休息，變得沒有辦法去購買。")
+    st.markdown(
+        """
+        <a href="https://example.com/icon1" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/128/15343/15343799.png" width="30" height="30" style="vertical-align: middle;">
+        </a>
+        """,
+        unsafe_allow_html=True
+    )
 with col3:
     st.write(f"")
     st.subheader("客戶三")
     st.write("停車方便，南北雜貨醬料一應俱全，價格都是最實惠的，最喜歡去的是烘培部，空間大擺放整齊，材料齊全經常有新品，補貨時還可以順便逛逛，令人一再回顧的好地方，有出貨給其他廠商，工作人員經常都是在理貨的狀態，有需要可以叫他們一下以免久等")
+    st.markdown(
+        """
+        <a href="https://example.com/icon1" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/128/15343/15343799.png" width="30" height="30" style="vertical-align: middle;">
+        </a>
+        """,
+        unsafe_allow_html=True
+    )
+
 
 st.write(f"")
 st.write(f"")
