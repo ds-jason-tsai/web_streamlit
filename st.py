@@ -7,17 +7,19 @@ import streamlit as st
 # st.write(page)
 
 # 瀏覽器頁籤與其他設定
-st.set_page_config(page_title='啟元食品行 | 宜蘭最佳食品供應商', layout="wide")
+st.set_page_config(page_title='啟元食品行', layout="wide")
 
 # 網頁標題
-st.header('啟元食品行')
+st.header('啟元食品行 | 宜蘭最佳食品供應商')
 
 # 製造間距
+st.write(f"")
 st.write(f"")
 st.write(f"")
 
 # st.image("https://lh5.googleusercontent.com/p/AF1QipNF0A-hAXYtaPUHDXzESGzBftZsF7spDhSKmLas=s774-k-no")
 
+st.write(f"")
 st.write(f"")
 st.write(f"")
 
