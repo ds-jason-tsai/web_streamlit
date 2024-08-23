@@ -23,6 +23,27 @@ st.write(f"")
 st.write(f"")
 st.write(f"")
 
+# 網頁標題
+st.subheader('特色')
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.write(f"")
+    st.subheader("100+")
+    st.write("飯店、餐飲集團合作")
+with col2:
+    st.write(f"")
+    st.subheader("4.6★")
+    st.write("Google評論")
+with col3:
+    st.write(f"")
+    st.subheader("1000+")
+    st.write("商品種類齊全")
+
+st.write(f"")
+st.write(f"")
+st.write(f"")
+st.write(f"")
+
 st.subheader('關於我們')
 st.write("啓懋食品行為南北雜貨、烘焙食材，餐廳飯店食品材供應商我們重視每一位員工")
 st.write("除了有良好工作環境、也提供學習及成長的空間，歡迎優秀的朋友一起加入啓懋食品行的工作行列。")
