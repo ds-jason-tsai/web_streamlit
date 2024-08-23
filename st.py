@@ -27,7 +27,7 @@ with col1:
     st.markdown("<h1 style='color: orange;'>100+</h1>", unsafe_allow_html=True)
     st.markdown(
         """
-        <div style='border-left: 4px solid white; padding-left: 4px; margin-bottom: 4px;'>
+        <div style='border-left: 8px solid white; padding-left: 8px; margin-bottom: 8px;'>
         <h4  style='margin: 0;'>飯店餐廳合作 </h4></div>
         """, unsafe_allow_html=True
     )
