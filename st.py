@@ -22,6 +22,8 @@ st.markdown(
     .carousel-container {
         display: flex;
         align-items: center;
+        justify-content: center;
+        margin-top: 20px;
     }
     .carousel-wrapper {
         display: flex;
@@ -56,10 +58,10 @@ st.markdown(
         <div class="nav-button" onclick="moveCarousel(-1)">◀</div>
         <div class="carousel-wrapper">
             <div class="carousel-buttons" id="carousel">
-                <div class="carousel-button">按鈕 1</div>
-                <div class="carousel-button">按鈕 2</div>
-                <div class="carousel-button">按鈕 3</div>
-                <div class="carousel-button">按鈕 4</div>
+                <div class="carousel-button" onclick="window.location.href='/page_2'">按鈕 1</div>
+                <div class="carousel-button" onclick="window.location.href='/page_2'">按鈕 2</div>
+                <div class="carousel-button" onclick="window.location.href='/page_2'">按鈕 3</div>
+                <div class="carousel-button" onclick="window.location.href='/page_2'">按鈕 4</div>
             </div>
         </div>
         <div class="nav-button" onclick="moveCarousel(1)">▶</div>
