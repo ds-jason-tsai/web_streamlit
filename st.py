@@ -27,7 +27,7 @@ st.write(f"")
 col1, col2, col3 = st.columns(3)
 with col1:
     st.write(f"")
-    st.markdown(":orange[100+]")
+    st.markdown("<h1 style='color: orange;'>100+</h1>", unsafe_allow_html=True)
     st.subheader("飯店餐廳合作")
 with col2:
     st.write(f"")
