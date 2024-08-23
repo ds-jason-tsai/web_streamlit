@@ -21,8 +21,8 @@ st.markdown(
     """
     <style>
     body {
-        background-color: #000; /* 設置背景顏色為黑色 */
-        color: #fff; /* 設置文字顏色為白色 */
+        background-color: #000 !important; /* 強制設置背景顏色為黑色 */
+        color: #fff !important; /* 強制設置文字顏色為白色 */
     }
     .css-1d391kg, .css-1e1f3sq { 
         background-color: #000 !important; /* 確保 Streamlit 的內部容器和主內容區域使用黑色背景 */
