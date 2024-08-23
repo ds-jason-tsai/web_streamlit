@@ -27,7 +27,7 @@ st.write(f"")
 col1, col2, col3 = st.columns(3)
 with col1:
     st.write(f"")
-    st.header("100+")
+    st.markdown(":orange[100+]")
     st.subheader("飯店餐廳合作")
 with col2:
     st.write(f"")
