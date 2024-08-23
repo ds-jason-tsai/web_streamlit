@@ -13,8 +13,6 @@ st.write(f"")
 st.write(f"")
 st.write(f"")
 st.write(f"")
-st.write(f"")
-st.write(f"")
 
 st.subheader('關於我們')
 st.write("啓懋食品行為南北雜貨、烘焙食材，餐廳飯店食品材供應商我們重視每一位員工")
