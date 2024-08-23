@@ -11,10 +11,13 @@ st.header('公司介紹')
 # 製造間距
 st.write(f"")
 st.write(f"")
+st.write(f"")
+st.write(f"")
+st.write(f"")
+st.write(f"")
 
 # 網頁標題
-st.header('產品分類')
-
+st.st.subheader('產品分類')
 # sidebar navigation
 st.sidebar.page_link('st.py', label='公司介紹')
 st.sidebar.page_link('pages/page_1.py',  label='糖類')
