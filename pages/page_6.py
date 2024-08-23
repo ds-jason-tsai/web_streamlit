@@ -41,5 +41,5 @@ st.write(f"")
 # 網頁子標題
 st.write('產品細項')
 
-df = pd.read_excel("./static/p6.xlsx")
+df = pd.read_csv("./static/p6.csv")
 st.dataframe(df, use_container_width=True)
