@@ -32,6 +32,10 @@ st.sidebar.page_link('pages/page_17.py', label='香辛料')
 # 欄位排列
 # left_column, right_column = st.columns(2)
 
+# 製造間距
+st.write(f"")
+st.write(f"")
+
 data = {
     "貨品編號": [
         "1101005", "1102004",  "1102005",  "1102007",  "1102009", "1103010", "1105100", 
@@ -84,4 +88,4 @@ data = {
 }
 
 df = pd.DataFrame(data)
-st.dataframe(df, use_container_width=True)
+st.dataframe(df.style.hide(axis='index'), use_container_width=True)
